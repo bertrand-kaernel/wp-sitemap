@@ -17,6 +17,7 @@ function xml_sitemap()
         'numberposts' => 9999, /// '-1' is possible
         'orderby' => 'modified',
         'post_type'  => array('post', 'page', 'date'), /// Add a CPT Date
+        'post_status' => 'publish',
         'order'    => 'DESC'
     ));
 
